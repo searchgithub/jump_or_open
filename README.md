@@ -10,15 +10,22 @@ for macbook:
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+download my.sh, then "source my.sh"
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Usage:
+    "jump to" or "open" with the specified line number or "choice list number" with keyword in the current ~/.marks file.
+    j, jo, show marks file list with line number
+    j -h, jo -h, jm -h, show help
+    j /[SOME_PATH], jo /[SOME_PATH], "jump to" or "open" /SOME_PATH
+    j [LINENUM], jo [LINENUM], "jump to" or "open" the LINENUM matched path in ~/.marks file
+    j [KYEWORD], jo [KEYWORD], grep -i KEYWORD ~/.marks, list all matched record, show the "choice list number" in first column.
+      You can input "choice list number" at first column to "jump to" or "open" the specified path.
+      If just match one path, "jump to" or "open" it directly.
+    j -, jump to previous folder
+    jm, mark current path append into ~/.marks file
+    jo ., open current path "."
 
 #### 参与贡献
 
@@ -30,9 +37,5 @@ for macbook:
 
 #### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1.  可以cd到某些常用目录，输入jm添加条目，然后用j，jo进行跳转或者打开。
+
