@@ -1,19 +1,16 @@
 # jump_or_open
 
-#### 介绍
-for macbook:
+#### Introduction
+For mac/linux:
     "jump to" or "open" or "del" with the specified line number or "choice list number" 
     with keyword in the current ~/.marks file.
 
-#### 软件架构
-软件架构说明
 
-
-#### 安装教程
+#### Installation
 
 download my.sh, then "source mp.sh"
 
-#### 使用说明
+#### Usage
                                                                                                                                                                                                             [17:14:48]
     Usage:
     "jump to" with "j" or "open with finder/explorer" with "jo" to the specified line number or "choice list number" with keyword in the current ~/.marks file.
@@ -33,15 +30,10 @@ download my.sh, then "source mp.sh"
 
 
 
-#### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+#### Quick-Start
+ It can "cd" to certain folder, enter "jm ." to add an entry, and then use j, jo to jump or open the related folder.
 
 
-#### 特技
 
-1.  可以cd到某些常用目录，输入"jm ."添加条目，然后用j，jo进行跳转或者打开。
 
