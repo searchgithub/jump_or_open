@@ -2,7 +2,8 @@
 
 #### 介绍
 for macbook:
-    "jump to" or "open" with the specified line number or "choice list number" with keyword in the current ~/.marks file.
+    "jump to" or "open" or "del" with the specified line number or "choice list number" 
+    with keyword in the current ~/.marks file.
 
 #### 软件架构
 软件架构说明
