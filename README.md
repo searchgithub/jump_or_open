@@ -13,7 +13,7 @@ for macbook:
 download my.sh, then "source my.sh"
 
 #### 使用说明
-····
+···
 Usage:
     "jump to" or "open" with the specified line number or "choice list number" with keyword in the current ~/.marks file.
     j, jo, show marks file list with line number
@@ -26,7 +26,7 @@ Usage:
     j -, jump to previous folder
     jm, mark current path append into ~/.marks file
     jo ., open current path "."
-····
+···
 #### 参与贡献
 
 1.  Fork 本仓库
