@@ -8,7 +8,7 @@ For mac/linux:
 
 #### Installation
 
-download my.sh, then "source mp.sh"
+download mp.sh, then "source mp.sh"
 
 #### Usage
                                                                                                                                                                                                             [17:14:48]
