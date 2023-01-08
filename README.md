@@ -10,7 +10,7 @@ for macbook:
 
 #### 安装教程
 
-download my.sh, then "source my.sh"
+download my.sh, then "source mp.sh"
 
 #### 使用说明
 
