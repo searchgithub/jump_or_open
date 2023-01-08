@@ -20,12 +20,11 @@ download my.sh, then "source mp.sh"
     j, jo, jd, jm, show marks file list with line number
     j -h, jo -h, jd -h, jm -h, show help
     j /[SOME_PATH], jo /[SOME_PATH], "jump to" or "open" /SOME_PATH
-    j [LINENUM], jo [LINENUM], "jump to" or "open" the LINENUM matched path in ~/.marks file
-    j [KYEWORD], jo [KEYWORD], grep -i KEYWORD ~/.marks, list all matched record, show the "choice list number" in first column.
+    j [LINENUM], jo [LINENUM], jd [LINENUM], "jump to" or "open" or "del" the LINENUM matched path in ~/.marks file
+    j [KYEWORD], jo [KEYWORD], jd [KEYWORD], grep -i KEYWORD ~/.marks, list all matched record, show the "choice list number" in first column.
       You can input "choice list number" at first column to "jump to" or "open" the specified path.
-      If just match one path, "jump to" or "open" it directly.
+      If just match one path, "jump to" or "open" or "del" it directly.
     j -, jump to previous folder
-    jd [LINENUM], del related item in ~/.marks file
     jd . , delete current path in ~/.marks file
     jm . , mark current path append into ~/.marks file
     jm /[SOME_PATH], add the path to ~/.marks file
@@ -43,5 +42,5 @@ download my.sh, then "source mp.sh"
 
 #### 特技
 
-1.  可以cd到某些常用目录，输入jm添加条目，然后用j，jo进行跳转或者打开。
+1.  可以cd到某些常用目录，输入jm .添加条目，然后用j，jo进行跳转或者打开。
 
