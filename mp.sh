@@ -14,7 +14,7 @@ j_usage() {
     "mark" current path into ~/.marks file with "jm".
     j, jo, jd, jm, show marks file list with line number
     j -h, jo -h, jd -h, jm -h, show help
-    j /[SOME_PATH], jo /[SOME_PATH], "jump to" or "open" /SOME_PATH
+    j /[SOME_PATH], jo /[SOME_PATH], jd /[SOME_PATH], "jump to" or "open" or "del" /SOME_PATH. "del" just remove the entry in ~/.marks
     j [LINENUM], jo [LINENUM], "jump to" or "open" the LINENUM matched path in ~/.marks file
     j [KYEWORD], jo [KEYWORD], grep -i KEYWORD ~/.marks, list all matched record, show the "choice list number" in first column.
       You can input "choice list number" at first column to "jump to" or "open" the specified path.
